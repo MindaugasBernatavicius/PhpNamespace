@@ -1,1 +1,1 @@
-# PhpNamespace
+# PhpNamespaces
