@@ -3,6 +3,12 @@
 include './ns1/Table.php';
 include './ns2/Table.php';
 
+// ------------ 0 ------------
+// ... if namespaces are commented out we get an error:
+// ... PHP Fatal error:  Cannot declare class Table, because the name is already in use in ...
+// $t1 = new Table(); 
+// var_dump($t1);
+
 // ------------ 1 ------------
 // $t1 = new Html\Table(); 
 // var_dump($t1);
